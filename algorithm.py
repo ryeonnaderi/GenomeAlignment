@@ -57,8 +57,7 @@ def smith_waterman_gotoh(seq1, seq2, match_score=1, mismatch_penalty=-1, gap_ope
 
     return max_score, align1, align2
 
-# Example usage:
-
 score, alignment1, alignment2 = smith_waterman_gotoh(seq1, seq2)
 print("Optimal Alignment Score:", score)
-
+print(alignment1)
+print(alignment2)
